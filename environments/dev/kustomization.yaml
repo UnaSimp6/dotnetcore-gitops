@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - ../../k8s/
 images:
-- digest: sha256:74c6d76e9b1ca1c7473c5b8f0915be536915ae254c62d776c6b2785787db0489
+- digest: sha256:a6666b5faaf42e1b43cba31df04276c741c2e0ae334ae8688278255db5c79d53
   name: quay.io/usimpson/dotnetcore
   newName: quay.io/usimpson/dotnetcore
