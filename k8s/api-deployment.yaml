@@ -20,7 +20,7 @@ spec:
         app: dotnetcore-api
     spec:
       containers:
-      - image: quay.io/repository/usimpson/dotnetcore:latest
+      - image: quay.io/usimpson/dotnetcore:latest
         imagePullPolicy: Always
         name: dotnetcore-api
         ports:
